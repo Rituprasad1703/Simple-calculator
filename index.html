@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Calculator by Ritu</title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\Ritu\OneDrive\Documents\Web development\CSS3\calcu.css">
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <div class="formstyle">
+        <form name="form1">
+<input id="text1" type="text" name="answer"> <br> <br>
+<input type="button" value="/" onclick="form1.answer.value+='/'" class="button">
+<input type="button" value="(" onclick="form1.answer.value+='('" class="button">
+<input type="button" value=")" onclick="form1.answer.value+=')'" class="button">
+<input type="button" value="%" onclick="form1.answer.value+='%'" class="button">
+<br>
+<br>
+<input type="button" value="*" onclick="form1.answer.value+='*'" class="button">
+<input type="button" value="7" onclick="form1.answer.value+='7'" class="button">
+<input type="button" value="8" onclick="form1.answer.value+='8'" class="button">
+<input type="button" value="9" onclick="form1.answer.value+='9'" class="button">
+<br>
+<br>
+<input type="button" value="+" onclick="form1.answer.value+='+'" class="button">
+<input type="button" value="4" onclick="form1.answer.value+='4'" class="button">
+<input type="button" value="5" onclick="form1.answer.value+='5'" class="button">
+<input type="button" value="6" onclick="form1.answer.value+='6'" class="button">
+<br>
+<br>
+<input type="button" value="-" onclick="form1.answer.value+='-'" class="button">
+<input type="button" value="1" onclick="form1.answer.value+='1'" class="button">
+<input type="button" value="2" onclick="form1.answer.value+='2'" class="button">
+<input type="button" value="3" onclick="form1.answer.value+='3'" class="button">
+<br>
+<br>
+<input type="button" value="Clear All" onclick="form1.answer.value=''" id="clear" class="button">
+<input type="button" value="0" onclick="form1.answer.value+='0'" class="button">
+<input type="button" value="=" onclick="form1.answer.value=eval(form1.answer.value)" class="button">
+</form>
+</div>
+</body>
+</html>
