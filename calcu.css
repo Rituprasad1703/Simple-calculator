@@ -1,0 +1,51 @@
+.formstyle
+{
+    background: #B9D9EB;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    padding: 20px;
+}
+input
+{
+    display: inline;
+    margin: auto;
+    padding: 5px;
+    width: 72px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 20px;
+    font-size: 20px;
+}
+#text1
+{
+    background:babyblue;
+    width: 288px;
+    height: 50px;
+    border: 2px solid black;
+    margin: auto;
+}
+#clear
+{
+    width: 148px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    font: bold;
+}
+.button:hover
+{
+    background-color: white;
+}
+h1
+{
+    text-align: center;
+    background-color: skyblue;
+    border: 3px solid black;
+    font: bold;
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+}
